@@ -103,7 +103,7 @@ The device install log is particularly helpful if rollback occurs during the sys
 <tr><td style='padding:0in 4pt 0in 4pt;border:dotted #FFFFFF 0.0pt;'><b>Cause</b>
 <tr><td style='padding:0in 4pt 0in 4pt;border:dotted #FFFFFF 0.0pt;'>A driver has caused an illegal operation.
 <br>Windows was not able to migrate the driver, resulting in a rollback of the operating system.
-<br>This is a SafeOS boot failure, typically caused by drivers or non-Microsoft disk encryption software.
+<br>This is a SafeOS boot failure, typically caused by drivers or non-Microsoft disk encryption software. Non-Microsoft disk encryption management software which forces BitLocker to be enabled can also cause this error.
 </table>
 </td>
 
